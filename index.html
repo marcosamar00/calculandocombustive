@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="gas_alc.png">
+        <h1>Calculadora de Combustivel</h1>
+    </header>
+    <main>
+        <img id="status" src="neutro.png">
+        <form name="formularioFlex">
+            <input type="text" size="8" placeholder="Etanol" name="valoretanol">
+            <input type="text" size="8" placeholder="Gasolina" name="valorgasolina">
+            <input type="button" value="checar" onclick="calcular()">
+            <input type="reset" value="limpar" onclick="limpar()">
+        </form>
+    </main>
+    <footer>
+        <p> desenvolvido por 2°Des.sistemas!</p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
